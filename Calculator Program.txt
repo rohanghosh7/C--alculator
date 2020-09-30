@@ -1,6 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
+#include<conio.h>
+
 int arith()
 {
  int a,b,c,n;

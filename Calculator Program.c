@@ -6,7 +6,8 @@ int arith()
  int a,b,c,n;
  printf("ARITHMATIC OPERATIONS MENU\nWHAT OPERATION DO YOU WANT TO PERFORM?\nFOR ADDITION PRESS 1\nFOR SUBTRACTION PRESS 2\nFOR MULTIPLICATION PRESS 3\nFOR DIVISION PRESS 4\n");
  scanf("%d",&n);
- switch(n){
+ switch(n)
+ {
  case 1:
       printf("Enter two numbers\n");
 	  scanf("%d%d",&a,&b);
@@ -75,9 +76,9 @@ int palin(int n){
     n=n/10;
  }
  if(c==s)
-    printf("%d is a palindrome number\n",c);
+    printf("%d is a Palindrome number\n",c);
  else
-    printf("%d is not a palindrome number\n",c);
+    printf("%d is not a Palindrome number\n",c);
  return 0;
 }
 int arms(int n){
@@ -89,9 +90,9 @@ int arms(int n){
     n=n/10;
  }
  if(c==s)
-    printf("%d is an armstrong number\n",c);
+    printf("%d is an Armstrong number\n",c);
  else
-    printf("%d is not an armstrong number\n",c);
+    printf("%d is not an Armstrong number\n",c);
  return 0;
 }
 void main()
